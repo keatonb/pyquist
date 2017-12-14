@@ -15,6 +15,14 @@ The included functions make the following computations:
  ![Reproduced Figure 1 from Bell et al. 2017](https://github.com/keatonb/pyquist/blob/master/pyquist_demo.png)
  
  ```
+#import what I need
+import pyquist as pq
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib import rc #for style
+rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
+rc('text', usetex=True)
+ 
 #Sample observed intrinsic frequencies
 freqsample = np.linspace(0,10,101)
 
